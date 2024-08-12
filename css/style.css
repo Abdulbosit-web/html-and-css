@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Tenor+Sans&display=swap');
+:root {
+    --dark_gray:rgba(196, 196, 196, 1);
+    --white_gray:rgba(151, 151, 151, 1);
+    --text_gray:rgba(97, 97, 97, 1);
+    --text_black:rgba(10, 10, 10, 1);
+    --dark_black:rgba(17, 16, 16, 1);
+    --bg_milky:rgba(247, 247, 247, 1);
+    --Transparent_gray:rgba(0, 0, 0, 0.36);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+        width: 100%;
+     max-width: 1920px;
+    box-sizing: border-box;
+
+
+}
+.header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.conteiner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+}
+.logo {
+    margin-top: 44px;
+    margin-bottom: 39px;
+}
+.icon a {
+    text-decoration: none;
+    color: var(--text_black);
+}
+.icon a:hover {
+    color: var(--white_gray);
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 49px;
+}
+.icon_search {
+}
+.catalogs {
+}
+.icon_cart {
+}
+.icon_heart {
+}
+.icon_profile {
+}
