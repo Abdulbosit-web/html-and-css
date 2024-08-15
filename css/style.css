@@ -112,6 +112,9 @@ text-decoration: none;
     display: inline-block;
     
 }
+.content-block-3 p {
+    color: var(--white_gray);
+}
 .icon-block-3 {
 }
 .icon-grid {
