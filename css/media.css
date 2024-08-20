@@ -108,12 +108,17 @@ line-height: 25px;
     }
 
 }
-
+.logo img {
+    width: 20%;
+ } 
 @media  (max-width:992px) {
  .conteiner {
     max-width: 692px;
     width: 100%;
- }   
+ }  
+ .logo img {
+    width: 15%;
+ } 
  .header-block-2 {
     background: url(/images/block_1_background.png);
     background-position:15%;
@@ -122,11 +127,11 @@ line-height: 25px;
     padding-top: 60px;
 }
 .icon-block-3 h2{
-    font-size: 0.8em;
+    font-size: 12px;
 }
 
 .icon-block-3 p {
-    font-size: 8px;
+    font-size: 7px;
 }
 .item-grid1 p{
     font-size: 8px;
@@ -140,7 +145,20 @@ line-height: 25px;
     font-size: 9px;
 }
 .item-grid3- {
-    margin-bottom: 50px;
+    margin-bottom: 34px;
+}
+.content-text-3 {
+        padding: 6px 20px;
+}
+.content-text-2 {
+    padding: 6px 25px;
+}
+.content-text-1 {
+    padding: 6px 25px;
+}
+.content-text-4 {
+    padding: 6px 20px;
+    margin-top: -34px;
 }
 .card-first-header {
     text-align: left;
@@ -153,35 +171,64 @@ line-height: 25px;
 
 .card-first-header p {
 line-height: 25px;
-    font-size: 13px;
+    font-size: 10px;
     margin-bottom: 25px;
 }
 
 .card-first-header h1 {
     margin-bottom: 25px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .button a {
     padding: 12px 20px;
-    font-size: 10px;
+    font-size: 9px;
 
 }
 .content-text-block-img .content-text-block-4{
     max-width: 400px;
     width: 100%;
 }
+.content-text-block-img .content-text-block-4 {
+
+    padding: 10px 17px 11px 13px;
+    max-width: 330px;
+    width: 100%;
+
+}
+.content-block-4 .conteiner {
+    height: auto;
+
+}
+.content-block-3 h1{
+    font-size: 28px;
+}
+.lorem {
+    font-size: 14px;
+}
 .content-text-block-4 h1 {
-    font-size: 25px;
+    font-size: 20px;
 }
 .content-text-block-4 p {
-    font-size: 10px;
+    font-size: 9px;
+}
+.content-text-block-4 .button a {
+    font-size: 6px;
 }
 .col:nth-child(1) p {
-    font-size: 16px;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+    line-height: 26px;
 }
 .col:nth-child(1) h1 {
-    font-size: 40px;
+    font-size: 30px;
+    width: 100%;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+.col:nth-child(1) .row{
+    margin-top: 0px;
 }
 .column {
     
@@ -191,7 +238,18 @@ line-height: 25px;
     width: 75%;
 }
 .video-tour {
-    bottom: 66px;
+    bottom: 75px;
+    right: -1px;
+    padding: 10px 15px;
+}
+.video-tour .img img {
+    width: 88%;
+}
+.col:nth-child(1) .button a {
+    font-size: 8px;
+}
+.text p {
+    font-size: 14px;
 }
 .content-text-block-8 {
     display: inline-block;
