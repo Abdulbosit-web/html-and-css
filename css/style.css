@@ -482,11 +482,15 @@ footer .conteiner {
     justify-content: space-between;
     padding-top: 68px;
 }
-.foot-col {
+.foot-col h3{
+    margin-top: 0;
 }
 .foot-col .logo {
 
     margin-bottom: 80px;
+}
+.foot-col .logo img {
+    width: 40%;
 }
 .foot-col a {
     text-decoration: none;
@@ -510,7 +514,12 @@ footer .conteiner {
     margin-bottom: 45px;
     align-items: center;
 }
-.law {
+.law a{
+    font-size: 10px;
+    color: var(--text_gray);
+}
+.law a:hover {
+    color: #fff;
 }
 .created p a{
 color: #fff;
@@ -522,4 +531,10 @@ color: #fff;
 }
 .f-w700 {
     font-weight: 700;
+}
+.icon-search- {
+    display: none;
+}
+.slider {
+    display: none;
 }
