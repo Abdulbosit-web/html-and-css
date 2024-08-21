@@ -682,6 +682,9 @@ margin-top: 0;
         display: none;
         width: 100%;
     }
+    .slider {
+        display: block;
+    }
 }
 
 @media  (max-width:320px) {
