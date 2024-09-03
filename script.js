@@ -26,3 +26,28 @@ function prevSlide() {
 
 // Инициализация первого слайда
 showSlide(currentSlide);
+const slidesTwo = document.querySelector('.slides-two');
+const slideTwo = document.querySelectorAll('.slide-two');
+let currentIndexTwo = 0;
+
+document.querySelector('.next-two').addEventListener('click', () => {
+  if (currentIndexTwo < slideTwo.length - 1) {
+    currentIndexTwo++;
+  } else {
+    currentIndexTwo = 0;
+  }
+  updateSlidePositionTwo();
+});
+
+document.querySelector('.prev-two').addEventListener('click', () => {
+  if (currentIndexTwo > 0) {
+    currentIndexTwo--;
+  } else {
+    currentIndexTwo = slideTwo.length - 1;
+  }
+  updateSlidePositionTwo();
+});
+
+function updateSlidePositionTwo() {
+  slidesTwo.style.transform = `translateX(-${currentIndexTwo * 100}%)`;
+}
