@@ -784,13 +784,14 @@
   .content-block-7 {
     display: none;
   }
-  .content-block-6 .button {
-    display: none;
+  .content-block-6 .button a {
+    font-size: 16px;
+    padding: 10px 40px;
   }
   .slider-three {
     position: relative;
-    width: 60%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 700px;
     margin: 20px auto;
     overflow: hidden;
   }
@@ -810,9 +811,9 @@
   .prev-three,
   .next-three {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
-    color: white;
+
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -824,6 +825,33 @@
 
   .next-three {
     right: 10px;
+  }
+  .flex-col- img {
+    display: none;
+  }
+  .content-block-8 {
+    background-image: url(/images/block_7_background.png);
+    background-position: center;
+    height: 648px;
+    margin-top: 317px;
+  }
+  .content-text-block-8 {
+    margin-top: -260px;
+  }
+  .flex-col-:nth-child(2) {
+    width: 100%;
+  }
+  .content-text-block-8 h1 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .content-text-block-8 p {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  .content-text-block-8 .button a {
+    padding: 14px 40px;
+    font-size: 16px;
   }
 }
 
