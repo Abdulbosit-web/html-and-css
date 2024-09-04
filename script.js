@@ -51,3 +51,28 @@ document.querySelector('.prev-two').addEventListener('click', () => {
 function updateSlidePositionTwo() {
   slidesTwo.style.transform = `translateX(-${currentIndexTwo * 100}%)`;
 }
+const slidesThree = document.querySelector('.slides-three');
+const slideThree = document.querySelectorAll('.slide-three');
+let currentIndexThree = 0;
+
+document.querySelector('.next-three').addEventListener('click', () => {
+  if (currentIndexThree < slideThree.length - 1) {
+    currentIndexThree++;
+  } else {
+    currentIndexThree = 0;
+  }
+  updateSlidePositionThree();
+});
+
+document.querySelector('.prev-three').addEventListener('click', () => {
+  if (currentIndexThree > 0) {
+    currentIndexThree--;
+  } else {
+    currentIndexThree = slideThree.length - 1;
+  }
+  updateSlidePositionThree();
+});
+
+function updateSlidePositionThree() {
+  slidesThree.style.transform = `translateX(-${currentIndexThree * 100}%)`;
+}
