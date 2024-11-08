@@ -32,7 +32,9 @@ body {
   width: 100%;
   margin-bottom: 35px;
 }
-
+header .row {
+  justify-content: space-between;
+}
 .conteiner {
   margin: 0 auto;
   max-width: 1200px;
@@ -43,13 +45,12 @@ body {
 .logo {
   margin-bottom: 30px;
 }
-
-.icon a {
+.menu a {
   text-decoration: none;
   color: var(--text_black);
 }
 
-.icon a:hover {
+.menu a:hover {
   color: var(--white_gray);
 }
 
@@ -58,6 +59,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  column-gap: 25px;
 }
 
 .icon {
