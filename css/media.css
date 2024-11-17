@@ -3,6 +3,7 @@
     max-width: 900px;
     width: 100%;
   }
+
   .header-block-2 {
     background: url(/images/block_1_background.png);
 
@@ -136,6 +137,7 @@
     width: 100%;
   }
   .header {
+    font-size: 13px;
     margin-bottom: 0;
   }
   .logo img {
@@ -160,6 +162,15 @@
   }
   .img-icon-3-1 img {
     height: 317px;
+  }
+  .icon-search img {
+    width: 50%;
+  }
+  .icon-connection img {
+    width: 50%;
+  }
+  .menu {
+    column-gap: 15px;
   }
   .icon a {
     font-size: 9px;
@@ -219,9 +230,7 @@
   .content-block-3 h1 {
     font-size: 28px;
   }
-  .lorem {
-    font-size: 13px;
-  }
+
   .content-text-block-4 h1 {
     font-size: 20px;
   }
