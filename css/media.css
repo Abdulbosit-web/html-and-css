@@ -340,7 +340,7 @@
 }
 
 @media (max-width: 768px) {
-  .conteiner {
+  .container {
     max-width: 610px;
     width: 100%;
     margin-bottom: 50px;
@@ -451,10 +451,10 @@
     padding: 5px 8px;
   }
   .col:nth-child(1) p {
-    font-size: 8px;
+    font-size: 14px;
     display: inline-block;
     width: 100%;
-    line-height: 16px;
+    line-height: 25px;
   }
   .col:nth-child(1) h1 {
     font-size: 22px;
@@ -463,7 +463,7 @@
     margin-bottom: 10px;
   }
   .col:nth-child(1) .row {
-    margin-top: 0px;
+    margin-top: 32px;
   }
   .column {
     width: 33.3%;
@@ -471,8 +471,14 @@
   .column img {
     width: 75%;
   }
+  .video-tour .img img {
+    margin-bottom: -6px;
+  }
+  .content-text-block-img .content-text-block-4 {
+    top: 30%;
+  }
   .video-tour {
-    bottom: 70px;
+    bottom: 71px;
     right: -1px;
     padding: 5px 10px;
     column-gap: 8px;
