@@ -64,6 +64,10 @@
     max-width: 400px;
     width: 100%;
   }
+  .content-block-4 .conteiner {
+    height: 300px;
+    color: var(--text_gray);
+  }
   .content-text-block-4 h1 {
     font-size: 25px;
   }
@@ -244,13 +248,12 @@
     font-size: 13px;
     display: inline-block;
     width: 100%;
-    line-height: 26px;
+    line-height: 15px;
   }
   .col:nth-child(1) h1 {
     font-size: 30px;
     width: 100%;
     line-height: 42px;
-    margin-bottom: 12px;
   }
   .col:nth-child(1) .row {
     margin-top: 0px;

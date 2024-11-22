@@ -133,12 +133,6 @@ button {
   display: inline-block;
 }
 
-.lorem {
-  color: var(--white_gray);
-  margin: 20px auto 40px;
-  text-align: center;
-}
-
 .icon-block-3 {
   display: flex;
   flex-wrap: wrap;
@@ -257,7 +251,6 @@ button {
 .content-block-4 .conteiner {
   height: 526px;
   color: var(--text_gray);
-  margin-bottom: 87px;
 }
 .content-block-4 h1 {
   color: var(--dark_black);
