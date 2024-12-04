@@ -614,9 +614,13 @@
   .icon-search- img {
     width: 24px;
   }
-  .icon-shop img {
+  .icon-shop- img {
     width: 24px;
   }
+  .icon-shop- {
+    display: block;
+  }
+  .icon-shop,
   .icon-heart,
   .icon-profile {
     display: none;
@@ -632,7 +636,7 @@
   }
   .row {
     display: inline;
-    width: 1%;
+
     margin: 0;
   }
   header .logo img {
@@ -810,12 +814,12 @@
   }
 
   .prev-two {
-    left: 42px;
+    left: 35px;
   }
 
   .next-two {
     margin-right: 0px;
-    right: 42px;
+    right: 35px;
     z-index: 5;
   }
   .slidetwo img {
@@ -928,7 +932,6 @@
     color: #fff;
   }
   .media- {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 2px solid var(--text_gray);
@@ -939,6 +942,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 12px;
+  }
+  .w-480- .col:nth-child(2) {
+    width: 100%;
   }
   .arrow-bottom- {
     text-align: right;

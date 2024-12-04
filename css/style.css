@@ -542,11 +542,11 @@ button.next {
 }
 
 button.prev {
-  left: 10px;
+  left: 0px;
 }
 
 button.next {
-  right: 10px;
+  right: 0px;
 }
 
 .slider {
@@ -559,5 +559,8 @@ button.next {
   display: none;
 }
 .slider-three {
+  display: none;
+}
+.icon-shop- {
   display: none;
 }
